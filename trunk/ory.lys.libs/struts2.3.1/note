@@ -1,0 +1,18 @@
+struts2.3.1 需要的jar包：
+
+1.struts2-core.jar——Struts2的核心包
+
+2.xwork-core.jar——Command模式框架，WebWork和Struts2都基于xwork，并且完全从web层脱离出来。
+  Xwork提供了很多核心功能：前端拦截机（interceptor）等
+
+--如果只用到struts2的action发配，只要以上 两个jar包就行了
+
+3.commons-logging.jar——Java日志工具类包
+
+4.freemarker.jar——模板引擎，一个基于模板生成文本输出的通用工具
+
+5.ognl.jar——Object-Graph Navigation Language，表达式语言，用来获取和设置Java对象属性
+
+6.commons-fileupload.jar-文件上传
+
+7.struts2-spring:struts-spring插件，将struts对象交给spring管理
