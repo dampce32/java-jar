@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="apache" systemlibrary="false">
+        <archive path="/ory.lys.libs/apache/commons-dbcp.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-fileupload-1.2.2.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-io-2.0.1.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-lang-2.5.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-logging-1.1.1.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-pool.jar"/>
+    </library>
+    <library name="db" systemlibrary="false">
+        <archive path="/ory.lys.libs/db/mysql-connector-java-5.1.21-bin.jar"/>
+    </library>
+    <library name="hibernate3.3.2" systemlibrary="false">
+        <archive path="/ory.lys.libs/hibernate3.3.2/dom4j-1.6.1.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/ejb3-persistence.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/hibernate3.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/hibernate-annotations.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/hibernate-commons-annotations.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/javassist-3.9.0.GA.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/jta-1.1.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/slf4j-api-1.5.8.jar"/>
+        <archive path="/ory.lys.libs/hibernate3.3.2/slf4j-log4j12-1.5.8.jar"/>
+    </library>
+    <library name="log4j" systemlibrary="false">
+        <archive path="/ory.lys.libs/log4j1.2/log4j-1.2.12.jar"/>
+    </library>
+    <library name="spring3.0.7" systemlibrary="false">
+        <archive path="/ory.lys.libs/spring3.0.7/aopalliance.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/aspectjweaver.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.aop-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.asm-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.aspects-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.beans-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.context.support-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.context-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.core-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.expression-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.jdbc-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.orm-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.transaction-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.web.struts-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/org.springframework.web-3.0.7.RELEASE.jar"/>
+        <archive path="/ory.lys.libs/spring3.0.7/cglib-nodep-2.1_3.jar"/>
+    </library>
+    <library name="struts2.3.1" systemlibrary="false">
+        <archive path="/ory.lys.libs/struts2.3.1/struts2-core-2.3.1.jar"/>
+        <archive path="/ory.lys.libs/struts2.3.1/xwork-core-2.3.1.jar"/>
+        <archive path="/ory.lys.libs/struts2.3.1/freemarker-2.3.18.jar"/>
+        <archive path="/ory.lys.libs/struts2.3.1/ognl-3.0.3.jar"/>
+        <archive path="/ory.lys.libs/struts2.3.1/struts2-spring-plugin-2.3.1.jar"/>
+    </library>
+</eclipse-userlibraries>

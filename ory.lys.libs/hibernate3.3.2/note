@@ -1,0 +1,13 @@
+hibernate3.3.2 需要的jar包
+--xml
+1.hibernate3: hibernate的核心包
+2.dom4j:用来读取xml配置文件
+3.javassist:用来操作字节码的
+4.jta:java的事务规范，当用到事务处理时是必需的，hebernate中用到
+5.slf4j-api：日志生成接口包 相当于common-logging
+  slf4j-log4j12 ：slf4j和log4j的中间jar包
+6.commons-collections:Apache Commons包中的一个，包含了一些Apache开发的集合类，功能比java.util.*强大
+--annotation
+7.ejb3:
+8.hibernate-annotations:
+9.hibernate-common-annotations:
