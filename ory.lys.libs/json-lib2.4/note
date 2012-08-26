@@ -1,0 +1,13 @@
+json-lib-2.4 需要的jar包：
+
+(1) jakarta commons-lang 2.5
+(2) jakarta commons-beanutils 1.8.0
+(3) jakarta commons-collections 3.2.1
+(4) jakarta commons-logging 1.1.1
+(5) ezmorph 1.0.6 利用EZMorph复制Bean
+EZMorph的主要原理
+    若要将A的属性赋给B，则经过如下步骤：
+ new一个B的实例
+  遍历A的属性
+  若A有某个属性P1，B也有一个属性P1，则将A的P1的属性值赋给B的P1
+
