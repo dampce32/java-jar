@@ -8,9 +8,13 @@
         <archive path="/ory.lys.libs/apache/commons-logging-1.1.1.jar"/>
         <archive path="/ory.lys.libs/apache/commons-pool.jar"/>
         <archive path="/ory.lys.libs/apache/commons-beanutils-1.8.0.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-collections-3.2.1.jar"/>
     </library>
     <library name="db" systemlibrary="false">
         <archive path="/ory.lys.libs/db/mysql-connector-java-5.1.21-bin.jar"/>
+    </library>
+    <library name="ehcache2.6.0" systemlibrary="false">
+        <archive path="/ory.lys.libs/ehcache2.6.0/ehcache-core-2.6.0.jar"/>
     </library>
     <library name="hibernate3.3.2" systemlibrary="false">
         <archive path="/ory.lys.libs/hibernate3.3.2/dom4j-1.6.1.jar"/>
