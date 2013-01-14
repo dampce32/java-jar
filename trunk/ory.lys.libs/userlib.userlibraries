@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <eclipse-userlibraries version="2">
-    <library name="apache" systemlibrary="false">
-        <archive path="/ory.lys.libs/apache/commons-dbcp.jar"/>
-        <archive path="/ory.lys.libs/apache/commons-fileupload-1.2.2.jar"/>
-        <archive path="/ory.lys.libs/apache/commons-io-2.0.1.jar"/>
-        <archive path="/ory.lys.libs/apache/commons-lang-2.5.jar"/>
-        <archive path="/ory.lys.libs/apache/commons-logging-1.1.1.jar"/>
-        <archive path="/ory.lys.libs/apache/commons-pool.jar"/>
-        <archive path="/ory.lys.libs/apache/commons-beanutils-1.8.0.jar"/>
-        <archive path="/ory.lys.libs/apache/commons-collections-3.2.1.jar"/>
+    <library name="commons" systemlibrary="false">
+        <archive path="/ory.lys.libs/commons/commons-beanutils-1.8.3.jar"/>
+        <archive path="/ory.lys.libs/commons/commons-collections-3.2.1.jar"/>
+        <archive path="/ory.lys.libs/commons/commons-dbcp.jar"/>
+        <archive path="/ory.lys.libs/commons/commons-fileupload-1.2.2.jar"/>
+        <archive path="/ory.lys.libs/commons/commons-io-2.0.1.jar"/>
+        <archive path="/ory.lys.libs/commons/commons-lang-2.5.jar"/>
+        <archive path="/ory.lys.libs/commons/commons-logging-1.1.1.jar"/>
+        <archive path="/ory.lys.libs/commons/commons-pool.jar"/>
     </library>
     <library name="db" systemlibrary="false">
-        <archive path="/ory.lys.libs/db/mysql-connector-java-5.1.21-bin.jar"/>
+        <archive path="/ory.lys.libs/db/sqljdbc4.jar"/>
     </library>
     <library name="ehcache2.6.0" systemlibrary="false">
         <archive path="/ory.lys.libs/ehcache2.6.0/ehcache-core-2.6.0.jar"/>
@@ -27,6 +27,9 @@
         <archive path="/ory.lys.libs/hibernate3.3.2/slf4j-api-1.5.8.jar"/>
         <archive path="/ory.lys.libs/hibernate3.3.2/slf4j-log4j12-1.5.8.jar"/>
     </library>
+    <library name="jcaptcha" systemlibrary="false">
+        <archive path="/ory.lys.libs/captcha/jcaptcha-1.0-all.jar"/>
+    </library>
     <library name="json-lib2.4" systemlibrary="false">
         <archive path="/ory.lys.libs/json-lib2.4/ezmorph-1.0.6.jar"/>
         <archive path="/ory.lys.libs/json-lib2.4/json-lib-2.4-jdk15.jar"/>
@@ -36,6 +39,10 @@
     </library>
     <library name="log4j" systemlibrary="false">
         <archive path="/ory.lys.libs/log4j1.2/log4j-1.2.12.jar"/>
+    </library>
+    <library name="poi" systemlibrary="false">
+        <archive path="/ory.lys.libs/poi/poi-3.8-20120326.jar"/>
+        <archive path="/ory.lys.libs/poi/poi-scratchpad-3.8-20120326.jar"/>
     </library>
     <library name="spring3.0.7" systemlibrary="false">
         <archive path="/ory.lys.libs/spring3.0.7/aopalliance.jar"/>
