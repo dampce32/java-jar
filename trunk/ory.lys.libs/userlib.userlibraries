@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <eclipse-userlibraries version="2">
+    <library name="apache" systemlibrary="false">
+        <archive path="/ory.lys.libs/apache/commons-dbcp.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-fileupload-1.2.2.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-io-2.0.1.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-lang-2.5.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-logging-1.1.1.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-pool.jar"/>
+        <archive path="/ory.lys.libs/apache/commons-beanutils-1.8.0.jar"/>
+    </library>
     <library name="commons" systemlibrary="false">
         <archive path="/ory.lys.libs/commons/commons-beanutils-1.8.3.jar"/>
         <archive path="/ory.lys.libs/commons/commons-collections-3.2.1.jar"/>
@@ -44,6 +53,9 @@
     <library name="poi" systemlibrary="false">
         <archive path="/ory.lys.libs/poi/poi-3.8-20120326.jar"/>
         <archive path="/ory.lys.libs/poi/poi-scratchpad-3.8-20120326.jar"/>
+        <archive path="/ory.lys.libs/poi/poi-ooxml-3.8-20120326.jar"/>
+        <archive path="/ory.lys.libs/poi/poi-ooxml-schemas-3.8-20120326.jar"/>
+        <archive path="/ory.lys.libs/poi/xmlbeans-2.3.0.jar"/>
     </library>
     <library name="spring3.0.7" systemlibrary="false">
         <archive path="/ory.lys.libs/spring3.0.7/aopalliance.jar"/>
